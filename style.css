@@ -13,7 +13,6 @@ html, body {
 body {
   font: 100%/1.1 courier, sans-serif;
   background: #acd7e5 url(pattern_2.png) repeat left top;
-
 }
 
 /* DIVs & Layout */
@@ -24,22 +23,19 @@ body {
   -moz-perspective: 1000;
   -o-perspective: 1000;
   perspective: 1000;
-
 }
 
-	.flip-container:hover .flipper,
-  .flip-container.hover .flipper {
-		-webkit-transform: rotateY(180deg);
-		-moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-		transform: rotateY(180deg);
-
-	}
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
 
 .flip-container, .front, .back {
 	width: 320px;
 	height: 427px;
-
 }
 
 .flipper {
@@ -52,7 +48,6 @@ body {
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: relative;
-
 }
 
 .front, .back {
@@ -65,13 +60,10 @@ body {
 	left: 0;
   border: 1px solid #a0c7c7;
   border-radius: 10px;
-
 }
 
 .front {
-	background: url(Peelz_v3.jpg) no-repeat 0 0;
-	z-index: 2;
-
+  background: url(Peelz_v3.jpg) no-repeat 0 0;
 }
 
 .back {
@@ -80,11 +72,10 @@ body {
   -o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 	background-color: #fcfcfc;
-
 }
 
 
-h3{
+h3 {
   position: absolute;
   left: 15%;
   right: 15%;
@@ -101,7 +92,6 @@ h3{
 	-moz-transform: rotate(-12deg);
   -o-transform: rotate(-12deg);
 	transform: rotate(-12deg);
-
 }
 
 .column {
@@ -119,7 +109,6 @@ h3{
   column-gap: 0.125em;
   border-top: 1px dashed #a0c7c7;
   border-bottom: 1px dashed #a0c7c7;
-
 }
 
 /* Fonts & Styling */
@@ -135,7 +124,6 @@ h3{
 	color: #293333;
 	text-align: center;
   text-shadow: 0.1em 0.1em 0.05em #f1ffd5;
-
 }
 
 .column p {
@@ -143,7 +131,6 @@ h3{
   margin: 0;
   padding: 0;
   font-family: arial, sans-serif;
-
 }
 
 .info {
@@ -154,7 +141,6 @@ h3{
   padding: 0 20px;
   line-height: 1.5;
 	text-align: center;
-
 }
 
 .info-span{
